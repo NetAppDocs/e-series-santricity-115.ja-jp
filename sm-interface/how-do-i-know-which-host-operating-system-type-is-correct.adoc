@@ -1,0 +1,130 @@
+---
+permalink: sm-interface/how-do-i-know-which-host-operating-system-type-is-correct.html 
+sidebar: sidebar 
+keywords: host, operating, system, type, correct 
+summary: Host Operating System Typeフィールドには、ホストのオペレーティングシステムが表示されます。推奨されるホストタイプをドロップダウンリストから選択するか、Host Context Agent（HCA）でホストおよび適切なホストオペレーティングシステムのタイプを設定することができます。 
+---
+= 正しいホストオペレーティングシステムタイプを特定するにはどうすればよいですか？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Host Operating System Typeフィールドには、ホストのオペレーティングシステムが表示されます。推奨されるホストタイプをドロップダウンリストから選択するか、Host Context Agent（HCA）でホストおよび適切なホストオペレーティングシステムのタイプを設定することができます。
+
+|===
+| ホストオペレーティングシステムのタイプ | オペレーティングシステム（OS）とマルチパスドライバ 
+
+
+ a| 
+AIX MPIO
+ a| 
+Advanced Interactive Executive（AIX）OSとネイティブMPIOドライバ
+
+
+
+ a| 
+AvT_4M
+ a| 
+Silicon Graphics、Inc.（SGI）独自のマルチパスドライバ（詳細についてはSGIのインストールに関するドキュメントを参照
+
+
+
+ a| 
+工場出荷時のデフォルト
+ a| 
+これはストレージアレイの初期起動用に予約されており、特定のホストで使用されているホストオペレーティングシステムとマルチパスドライバに変更する必要があります
+
+
+
+ a| 
+HP-UX
+ a| 
+標準のマルチパスドライバを搭載したHP-UX OS
+
+
+
+ a| 
+Linux（ATTO）
+ a| 
+Linux OSとATTO Technology、Inc.のドライバ（ATTO FC HBAを使用）
+
+
+
+ a| 
+Linux（DM-MP）
+ a| 
+Linux OSと標準のDM-MPドライバが必要です
+
+
+
+ a| 
+Linux（Pathmanager）
+ a| 
+Linux OSとSGI独自のマルチパスドライバ。詳細についてはSGIのインストールに関するドキュメントを参照してください
+
+
+
+ a| 
+Mac OS の場合
+ a| 
+Mac OSとATTO Technology、Inc.のドライバ
+
+
+
+ a| 
+ONTAP
+ a| 
+FlexArray
+
+
+
+ a| 
+Solaris（バージョン11以降）
+ a| 
+Solaris 11以降のOSと標準のMPxIOドライバ
+
+
+
+ a| 
+Solaris（バージョン10以前）
+ a| 
+Solaris 10以前のOSと標準のMPxIOドライバ
+
+
+
+ a| 
+SVC（サービス）
+ a| 
+IBM SAN Volume Controllerの略
+
+
+
+ a| 
+VMware
+ a| 
+ESXi OS
+
+
+
+ a| 
+WindowsまたはWindowsクラスタ
+ a| 
+Windows Server OSと、DSMドライバを搭載したWindows MPIO
+
+
+
+ a| 
+Windows（ATTO）
+ a| 
+Windows OSとATTO Technology、Inc.のドライバ
+
+|===
+HCAがインストールされ、ストレージがホストに接続されると、HCAはI/Oパス経由でホストトポロジをストレージコントローラに送信します。ホストトポロジに基づいて、ストレージコントローラはホストと関連するホストポートを自動的に定義し、ホストタイプを設定します。
+
+[NOTE]
+====
+推奨されるホストタイプがHCAで選択されない場合は、System Managerでホストタイプを手動で設定する必要があります。
+
+====

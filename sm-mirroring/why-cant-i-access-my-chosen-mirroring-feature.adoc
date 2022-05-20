@@ -1,0 +1,24 @@
+---
+permalink: sm-mirroring/why-cant-i-access-my-chosen-mirroring-feature.html 
+sidebar: sidebar 
+keywords: access, mirror, feature 
+summary: 非同期ミラーリング機能または同期ミラーリング機能を使用するには、ミラーリング対応のストレージアレイを検出してミラーリング処理を開始できるよう、SANtricity Unified ManagerがHTTPS接続経由でローカルホストで実行されている必要があります。Unified Managerで、データのミラーリング元となるストレージアレイを選択し、LaunchをクリックしてSANtricity System Managerを開く必要があります。 
+---
+= 選択したミラーリング機能にアクセスできないのはなぜですか？
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+非同期ミラーリング機能または同期ミラーリング機能を使用するには、ミラーリング対応のストレージアレイを検出してミラーリング処理を開始できるよう、SANtricity Unified ManagerがHTTPS接続経由でローカルホストで実行されている必要があります。Unified Managerで、データのミラーリング元となるストレージアレイを選択し、LaunchをクリックしてSANtricity System Managerを開く必要があります。
+
+ミラーリング機能を使用するには、次の点を確認してください。
+
+* Web Services Proxyサービスが実行されている。
+* SANtricity Unified ManagerがHTTPS接続経由でローカルホストで実行されている。
+* SANtricity Unified Managerにストレージアレイの有効なSSL証明書が表示されています。Unified Managerのメニューから「Certificate Management」に移動し、自己署名証明書を受け入れるか、独自のセキュリティ証明書をインストールできます。
+* SANtricity System ManagerがUnified Managerから起動されている。
+* データをミラーリングする2つのストレージアレイを検出しておく必要があります。次に、Unified Managerでプライマリボリュームのストレージアレイを選択し、* Launch *をクリックして、ブラウザベースのSANtricity システムマネージャを開きます。
+

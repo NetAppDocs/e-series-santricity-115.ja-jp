@@ -1,0 +1,16 @@
+---
+permalink: sm-mirroring/workflow-for-mirroring-a-volume-synchronously.html 
+sidebar: sidebar 
+keywords: workflow, mirror, volume, synchronously 
+summary: SANtricity System Managerでは、次の手順でボリュームの同期ミラーリングを実行します。 
+---
+= ボリュームを同期的にミラーリングするためのワークフロー
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+SANtricity System Managerでは、次の手順でボリュームの同期ミラーリングを実行します。
+
+image::../media/sam1130-flw-sync-create.gif[sam1130 Flw同期が作成されます]

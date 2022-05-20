@@ -1,0 +1,46 @@
+---
+permalink: sm-hardware/configure-iser-over-infiniband-ports-hardware.html 
+sidebar: sidebar 
+keywords: configure, iser, infiniband, ports 
+summary: 'コントローラにiSER over InfiniBandポートが搭載されている場合は、ホストとのネットワーク接続を設定できます。構成設定は、[ハードウェア]ページまたは[システム]ページから使用できます。' 
+---
+= iSER over InfiniBandポートを設定します
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+コントローラにiSER over InfiniBandポートが搭載されている場合は、ホストとのネットワーク接続を設定できます。構成設定は、[ハードウェア]ページまたは[システム]ページから使用できます。
+
+.作業を開始する前に
+* コントローラにiSER over InfiniBandポートが搭載されている必要があります。そうでないと、System ManagerでiSER over InfiniBand設定を使用できません。
+* ホスト接続のIPアドレスを確認しておく必要があります。
+
+
+iSER over InfiniBand構成には、* Hardware *ページまたはメニューからアクセスできます：Settings [System]。このタスクでは、[*Hardware*]ページからポートを設定する方法について説明します。
+
+[NOTE]
+====
+iSER over InfiniBandの設定と機能は、ストレージアレイのコントローラにiSER over InfiniBandポートが搭載されている場合にのみ表示されます。
+
+====
+.手順
+. 「 * ハードウェア * 」を選択します。
+. 図にドライブが表示されている場合は、 * シェルフの背面を表示 * をクリックします。
++
+図の表示が切り替わり、ドライブではなくコントローラが表示されます。
+
+. iSER over InfiniBandポートを設定するコントローラをクリックします。
++
+コントローラのコンテキストメニューが表示されます。
+
+. iSER over InfiniBandポートの設定*を選択します。
++
+iSER over InfiniBandポートの設定*ダイアログボックスが開きます。
+
+. ドロップダウンリストで設定するHICポートを選択し、ホストのIPアドレスを入力します。
+. [*Configure*] をクリックします。
+. 設定を完了したら、* Yes *をクリックしてiSER over InfiniBandポートをリセットします。
+

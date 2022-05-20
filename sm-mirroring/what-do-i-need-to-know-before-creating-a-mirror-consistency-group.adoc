@@ -1,0 +1,23 @@
+---
+permalink: sm-mirroring/what-do-i-need-to-know-before-creating-a-mirror-consistency-group.html 
+sidebar: sidebar 
+keywords: creating,  mirror, consistency group 
+summary: 'ブラウザベースのSANtricity Unified Managerをインストールし、データをミラーリングする2つのストレージアレイを検出しておく必要があります。次に、Unified Managerでプライマリボリュームのストレージアレイを選択し、[起動]をクリックしてブラウザベースのSANtricity システムマネージャを開きます。' 
+---
+= ミラー整合性グループを作成するときは、どのような点に注意する必要がありますか？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ブラウザベースのSANtricity Unified Managerをインストールし、データをミラーリングする2つのストレージアレイを検出しておく必要があります。次に、Unified Managerでプライマリボリュームのストレージアレイを選択し、Launchをクリックして、ブラウザベースのSANtricity System Managerを開きます。
+
+さらに、次の点を確認してください。
+
+* ミラーリングするプライマリボリューム以上のセカンダリボリュームを作成するには、リモートストレージアレイに十分な空き容量が必要です。
+* 2つのストレージアレイが必要です。
+* 各ストレージアレイに2台のコントローラが必要です。
+* ローカルとリモートのストレージアレイのパスワードを確認しておく必要があります。
+* ローカルとリモートのストレージアレイがFibre ChannelファブリックまたはiSCSIインターフェイスを介して接続されている必要があります。
+

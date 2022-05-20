@@ -1,0 +1,31 @@
+---
+permalink: sm-settings/delete-alert-email-addresses.html 
+sidebar: sidebar 
+keywords: delete, email, addresses, alerts 
+summary: Eメールアラートを受け取る受信者のEメールアドレスを削除できます。 
+---
+= アラート用のEメールアドレスを削除する
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Eメールアラートを受け取る受信者のEメールアドレスを削除できます。
+
+.手順
+. メニューを選択します。Settings [Alerts]（設定[Alerts]）。
+. [*Email*]タブを選択します。
+. [*Email Address*]テーブルから、削除する電子メールアドレスを選択します。
++
+表の右上にある* Delete *ボタンを選択できるようになります。
+
+. [ 削除（ Delete ） ] をクリックします。
++
+[電子メールの削除の確認*]ダイアログボックスが開きます。
+
+. 操作を確定し、*削除*をクリックします。
+
+
+このEメールアドレスにアラートが送信されなくなります。

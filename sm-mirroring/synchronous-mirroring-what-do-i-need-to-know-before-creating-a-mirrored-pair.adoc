@@ -1,0 +1,22 @@
+---
+permalink: sm-mirroring/synchronous-mirroring-what-do-i-need-to-know-before-creating-a-mirrored-pair.html 
+sidebar: sidebar 
+keywords: synchronous, mirroring, create, mirrored path 
+summary: ミラーペアを作成する前に、環境が次のガイドラインを満たしていることを確認してください。 
+---
+= 同期ミラーリング-ミラーペアを作成するときは、どのような点に注意する必要がありますか？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ミラーペアを作成する前に、環境が次のガイドラインを満たしていることを確認してください。
+
+* ミラーリングするプライマリボリューム以上のセカンダリボリュームを作成するには、リモートストレージアレイに十分な空き容量が必要です。
+* 2つのストレージアレイが必要です。
+* 各ストレージアレイに2台のコントローラが必要です。
+* ローカルとリモートのストレージアレイのパスワードを確認しておく必要があります。
+* ローカルとリモートのストレージアレイがFibre Channelファブリックを介して接続されている必要があります。
+* データをミラーリングする2つのストレージアレイを検出しておく必要があります。次に、Unified Managerでプライマリボリュームのストレージアレイを選択し、Launchをクリックして、ブラウザベースのSANtricity System Managerを開きます。
+

@@ -1,0 +1,24 @@
+---
+permalink: sm-mirroring/asynchronous-mirroring-what-do-i-need-to-know-before-creating-a-mirrored-pair.html 
+sidebar: sidebar 
+keywords: asynchronous, mirror, create, mirrored pair 
+summary: ストレージアレイに少なくとも1つのミラー整合性グループが含まれている必要があります。 
+---
+= 非同期ミラーリング-ミラーペアを作成するときは、どのような点に注意する必要がありますか？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ストレージアレイに少なくとも1つのミラー整合性グループが含まれている必要があります。
+
+さらに、次の点を確認してください。
+
+* ミラーリングするプライマリボリューム以上のセカンダリボリュームを作成するには、リモートストレージアレイに十分な空き容量が必要です。
+* 2つのストレージアレイが必要です。
+* 各ストレージアレイに2台のコントローラが必要です。
+* ローカルとリモートのストレージアレイのパスワードを確認しておく必要があります。
+* ローカルとリモートのストレージアレイがFibre ChannelファブリックまたはiSCSIインターフェイスを介して接続されている必要があります。
+* ブラウザベースのSANtricity Unified Managerをインストールし、データをミラーリングする2つのストレージアレイを検出しておく必要があります。次に、Unified Managerでプライマリボリュームのストレージアレイを選択し、Launchをクリックして、ブラウザベースのSANtricity System Managerを開きます。
+

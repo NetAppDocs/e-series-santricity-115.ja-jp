@@ -1,0 +1,24 @@
+---
+permalink: sm-mirroring/workflow-for-mirroring-a-volume-asynchronously.html 
+sidebar: sidebar 
+keywords: workflow, mirroring, volume asynchronously 
+summary: System Managerでは、次の手順で、ボリュームの非同期ミラーリングを実行します。 
+---
+= ボリュームを非同期でミラーリングするためのワークフロー
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Managerでは、次の手順で、ボリュームの非同期ミラーリングを実行します。
+
+image::../media/sam1130-flw-async-set-up-mirroring.gif[sam1130 Flw非同期ミラーリングをセットアップしました]
+
+
+
+== System Managerで管理されていない従来型システムにプライマリボリュームのミラーペアを作成するためのワークフロー
+
+System Managerで管理されていない従来型システムにプライマリボリュームを作成した場合は、SANtricity System Managerでセカンダリボリュームを作成できます。
+
+image::../media/workflow-for-mirroring-volume-asynchronously.png[ボリュームを非同期でミラーリングするためのワークフロー]

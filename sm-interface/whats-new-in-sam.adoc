@@ -1,0 +1,70 @@
+---
+permalink: sm-interface/whats-new-in-sam.html 
+sidebar: sidebar 
+keywords: new, santricity, system manager 
+summary: System Managerの新機能は次のとおりです。 
+---
+= SANtricity システムマネージャの新機能
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Managerの新機能は次のとおりです。
+
+
+
+== バージョン 11.53 の新機能
+
+このバージョンにはマイナーな機能強化と修正のみが含まれています。
+
+
+
+== バージョン 11.52 の新機能
+
+|===
+| 新機能 | 説明 
+
+
+ a| 
+NVMe over FC ホストインターフェイス
+ a| 
+EF570またはE5700コントローラモデルで、既にサポートされているNVMe over RoCEおよびNVMe over InfiniBandに加えて、NVMe over Fibre Channelも購入時のオプションとして追加されました。System Managerのメニューには、この新しい接続タイプの統計が表示されます。「NVMe over Fibre Channel details」の「Settings [System]」が表示されます。
+
+|===
+
+
+== バージョン 11.51 の新機能
+
+このバージョンにはマイナーな機能強化と修正のみが含まれています。
+
+
+
+== バージョン 11.50 の新機能
+
+|===
+| 新機能 | 説明 
+
+
+ a| 
+NVMe over RoCE インターフェイス
+ a| 
+EF570またはE5700 DEシリーズコントローラで、NVMe over RoCEホスト接続が購入時のオプションとして追加されました。System Managerには、ホストへのネットワーク接続を設定するための新しい機能（ハードウェアページまたはメニューから設定[システム]を選択）が追加されました。この機能は、ストレージアレイへのNVMe over RoCE接続に関するデータを表示するための機能（メニュー：サポートセンター]またはメニュー：設定[システム]から選択できます）。
+
+
+
+ a| 
+ボリュームグループのドライブを手動で選択
+ a| 
+ボリュームグループを作成する際のオプションとして、自動選択に加え、ドライブを個別に選択することも可能になりました。一般には自動選択が推奨されますが、ドライブの場所に特別な要件がある環境では個別に選択することができます。
+
+
+
+ a| 
+SANtricity Unified Manager の略
+ a| 
+Unified Manager は、 E2800 シリーズおよび E5700 シリーズのコントローラの検出および管理に使用するブラウザベースのアプリケーションで、別途インストールして使用します。System Manager の新機能ではありませんが、この新しいブラウザベースのエンタープライズフレームワークから System Manager を起動して、検出されたストレージアレイに対する処理を実行することができます。新しい Unified Manager は、サポートサイトのソフトウェアダウンロードページからダウンロードできます。
+
+|===

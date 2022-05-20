@@ -1,0 +1,21 @@
+---
+permalink: sm-mirroring/asynchronous-mirroring-why-dont-i-see-all-my-volumes.html 
+sidebar: sidebar 
+keywords: asynchronous, mirror, all my volumes 
+summary: ミラーペアのプライマリボリュームを選択するとき、System Managerではそのミラーペアに対応するすべてのボリュームのリストが表示されます。使用できないボリュームはリストに表示されません。 
+---
+= 非同期ミラーリング-ボリュームが一部表示されないのはなぜですか？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ミラーペアのプライマリボリュームを選択するとき、System Managerではそのミラーペアに対応するすべてのボリュームのリストが表示されます。使用できないボリュームはリストに表示されません。
+
+次のいずれかの理由で、ボリュームが対象外になっている可能性があります。
+
+* ボリュームが、Snapshotボリュームなどの標準以外のボリュームである。
+* 最適状態でない。
+* すでにミラー関係に参加している。
+
