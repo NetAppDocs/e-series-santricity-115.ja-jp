@@ -18,10 +18,10 @@ summary: ボリュームを作成してアプリケーション固有のワー�
 
 ボリュームを作成するプロセスは複数の手順からなる手順 です。
 
-* <<Step 1: Select host>>
-* <<Step 2: Select workload>>
-* <<Step 3: Add or edit volumes>>
-* <<Step 4: Review configuration>>
+*  1: Select host
+*  2: Select workload
+*  3: Add or edit volumes
+*  4: Review configuration
 
 
 [NOTE]
@@ -62,7 +62,7 @@ summary: ボリュームを作成してアプリケーション固有のワー�
 Create Volumes（ボリュームの作成）*ダイアログボックスが表示されます。
 
 . ボリュームを割り当てるホストまたはホストクラスタをドロップダウンリストから選択するか、ホストまたはホストクラスタをあとで割り当てるように選択します。
-. 選択したホストまたはホストクラスタのボリューム作成手順を続行するには、* Next *をクリックしてに進みます <<Step 2: Select workload>>。
+. 選択したホストまたはホストクラスタのボリューム作成手順を続行するには、* Next *をクリックしてに進みます  2: Select workload。
 +
 ワークロードの選択ダイアログボックスが表示されます。
 
@@ -97,7 +97,7 @@ Microsoft SQL Server、Microsoft Exchange、ビデオ監視アプリケーショ
 
 
 . 「 * 次へ * 」をクリックします。
-. ワークロードがサポート対象のアプリケーションタイプに関連付けられている場合は、要求された情報を入力します。それ以外の場合は、に進みます <<Step 3: Add or edit volumes>>。
+. ワークロードがサポート対象のアプリケーションタイプに関連付けられている場合は、要求された情報を入力します。それ以外の場合は、に進みます  3: Add or edit volumes。
 
 
 
@@ -283,7 +283,7 @@ DA を使用すると、ストレージシステム全体のデータの整合�
 ====
 
 
-. 選択したアプリケーションのボリューム作成手順を続行するには、「*次へ」をクリックし、に進みます <<Step 4: Review configuration>>。
+. 選択したアプリケーションのボリューム作成手順を続行するには、「*次へ」をクリックし、に進みます  4: Review configuration。
 
 
 

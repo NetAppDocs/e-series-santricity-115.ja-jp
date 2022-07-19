@@ -22,10 +22,10 @@ Snapshotボリュームの作成手順では、SnapshotイメージからSnapsho
 
 Snapshotボリュームを作成するプロセスは複数の手順で構成された手順 です。
 
-* <<Step 1: Review members>>
-* <<Step 2: Assign to host>>
-* <<Step 3: Reserve capacity>>
-* <<Step 4: Edit settings>>
+*  1: Review members
+*  2: Assign to host
+*  3: Reserve capacity
+*  4: Edit settings
 
 
 
@@ -46,7 +46,7 @@ Snapshot整合性グループのSnapshotイメージを選択した場合は、*
 +
 メンバーの確認*（Review Members *）ダイアログボックスで、スナップショットボリュームへの変換に選択したボリュームのリストを確認し、*次へ*をクリックします。
 
-. に進みます <<Step 2: Assign to host>>。
+. に進みます  2: Assign to host。
 
 
 
@@ -85,8 +85,8 @@ Snapshot整合性グループのSnapshotイメージを選択した場合は、*
 
 . 「*次へ*」をクリックして、次のいずれかの操作を行います。
 +
-** Snapshotボリュームが読み取り/書き込みの場合は、* Review Capacity *（容量の確認）ダイアログボックスが表示されます。に進みます <<Step 3: Reserve capacity>>。
-** Snapshotボリュームが読み取り専用の場合は、*優先度の編集*ダイアログボックスが表示されます。に進みます <<Step 4: Edit settings>>。
+** Snapshotボリュームが読み取り/書き込みの場合は、* Review Capacity *（容量の確認）ダイアログボックスが表示されます。に進みます  3: Reserve capacity。
+** Snapshotボリュームが読み取り専用の場合は、*優先度の編集*ダイアログボックスが表示されます。に進みます  4: Edit settings。
 
 
 
@@ -128,7 +128,7 @@ Snapshotボリュームのリザーブ容量を必要に応じて増やしたり
 
 
 . （オプション）Snapshot整合性グループのSnapshotボリュームを作成する場合は、オプションの* Change candidate *がReserved Capacity candidatesテーブルに表示されます。[候補の変更]をクリックして、代替リザーブ容量候補を選択します。
-. 「*次へ*」をクリックして、に進みます <<Step 4: Edit settings>>。
+. 「*次へ*」をクリックして、に進みます  4: Edit settings。
 
 
 

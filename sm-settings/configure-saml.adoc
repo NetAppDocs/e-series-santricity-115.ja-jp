@@ -28,11 +28,11 @@ summary: アクセス管理の認証を設定する場合、ストレージア�
 ====
 SAML認証の設定は複数の手順からなる手順 です。
 
-* <<Step 1: Upload the IdP metadata file,手順1：IdPのメタデータファイルをアップロードする>>
-* <<Step 2: Export Service Provider files,手順2：サービスプロバイダのファイルをエクスポートする>>
-* <<Step 3: Map roles,手順3：ロールをマッピングする>>
-* <<Step 4: Test SSO login,手順4：SSOログインをテストする>>
-* <<Step 5: Enable SAML,手順5：SAMLを有効にする>>
+*  1: Upload the IdP metadata file,手順1：IdPのメタデータファイルをアップロードする
+*  2: Export Service Provider files,手順2：サービスプロバイダのファイルをエクスポートする
+*  3: Map roles,手順3：ロールをマッピングする
+*  4: Test SSO login,手順4：SSOログインをテストする
+*  5: Enable SAML,手順5：SAMLを有効にする
 
 
 

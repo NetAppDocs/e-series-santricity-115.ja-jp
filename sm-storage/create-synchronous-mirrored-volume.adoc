@@ -26,9 +26,9 @@ summary: ボリュームを同期的にミラーリングしてデータをス�
 
 ボリュームを同期的にミラーリングするプロセスは複数の手順で構成される手順 です。
 
-* <<Step 1: Select the primary volume>>
-* <<Step 2: Select the secondary volume>>
-* <<Step 3: Select synchronization settings>>
+*  1: Select the primary volume
+*  2: Select the secondary volume
+*  3: Select synchronization settings
 
 
 ボリュームに設定できるミラー関係は1つだけです。
@@ -59,7 +59,7 @@ summary: ボリュームを同期的にミラーリングしてデータをス�
 ボリュームをボリュームタイルで選択し、ミラーリングの対象になっている場合は、デフォルトでボリュームが選択されます。
 
 ====
-. [次へ]を選択し、に進みます <<Step 2: Select the secondary volume>>。
+. [次へ]を選択し、に進みます  2: Select the secondary volume。
 
 
 
@@ -99,7 +99,7 @@ summary: ボリュームを同期的にミラーリングしてデータをス�
 選択したセカンダリボリュームの容量がプライマリボリュームよりも大きい場合、使用可能な容量はプライマリボリュームのサイズまでに制限されます。
 
 ====
-. 「*次へ*」をクリックして、に進みます <<Step 3: Select synchronization settings>>。
+. 「*次へ*」をクリックして、に進みます  3: Select synchronization settings。
 
 
 
