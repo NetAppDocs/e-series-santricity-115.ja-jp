@@ -19,6 +19,7 @@ summary: コントローラにNVMe over InfiniBand接続が搭載されている
 * ホスト接続のIPアドレスを確認しておく必要があります。
 
 
+.このタスクについて
 NVMe over InfiniBand構成には、ハードウェアページまたはメニューからアクセスできます：Settings [System]。このタスクでは、[*Hardware*]ページからポートを設定する方法について説明します。
 
 [NOTE]

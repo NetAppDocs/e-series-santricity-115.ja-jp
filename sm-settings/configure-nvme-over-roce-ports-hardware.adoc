@@ -19,6 +19,7 @@ summary: コントローラにNVMe over RoCE（RDMA over Converged Ethernet）�
 * ホスト接続のIPアドレスを確認しておく必要があります。
 
 
+.このタスクについて
 NVMe over RoCE 構成には、 * Hardware * ページまたはメニューからアクセスできます： Settings [ System ] 。このタスクでは、 Hardware ページからポートを設定する方法について説明します。
 
 [NOTE]
@@ -47,6 +48,7 @@ Configure NVMe over RoCE Ports（NVMe over RoCEポートの設定）ダイアロ
 
 +
 .フィールドの詳細
+[%collapsible]
 ====
 |===
 | ポートの設定 | 説明 
@@ -84,6 +86,7 @@ IPv4を有効にするを選択した場合は、次へをクリックするとI
 . IPv4 と IPv6 、またはその両方を自動または手動で設定します。
 +
 .フィールドの詳細
+[%collapsible]
 ====
 |===
 | ポートの設定 | 説明 
